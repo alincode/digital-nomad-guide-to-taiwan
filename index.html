@@ -13,10 +13,13 @@
 <body>
   <script src="https://unpkg.com/lodash"></script>
   <script src="https://unpkg.com/vue"></script>
+
+<h1 class="text-center">Digital Nomad Guide To Taiwan</h1>
+
   <div id="app" class="row">
 
     <!-- 左側 start -->
-    <div class="col-4">
+    <div class="col-3">
       <div class="list-group" id="list-tab" role="tablist" v-for="(info, key, index) in infos">
         <a :class="['list-group-item', 'list-group-item-action', key]" :id="'list-' + key + '-id'" data-toggle="list" :href="'#list-' + key"
           role="tab" :aria-controls="key" v-on:click="switchContent">{{ key }}</a>
@@ -25,11 +28,11 @@
     <!-- 左側 end -->
 
     <!-- 右側 start -->
-    <div class="col-8">
+    <div class="col-9">
       <div class="tab-content" id="nav-tabContent">
         <div v-for="(info, key, index) in infos">
           <div class="tab-pane fade" :id="'list-' + key" role="tabpanel" :aria-labelledby="'list-' + key + '-id'">
-            <h1>{{ key }}</h1>
+            <h4>{{ key }}</h4>
             <ul v-for="item in info">
               <li>
                 <a :href="item.link"> {{ item.name }} </a>
