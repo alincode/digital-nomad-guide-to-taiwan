@@ -7,40 +7,41 @@
   <title>Digital Nomad Guide To Taiwan</title>
 </head>
 <body>
-<script src="https://unpkg.com/lodash"></script>
-<script src="https://unpkg.com/vue"></script>
-
-<div id="app">
-  <div v-for="(info, key, index) in infos">
-    <h1>{{key}}</h1>
-      <ul v-for="item in info">
-        <li>
-          {{ item.name }}
-        </li>
-        <li>
-          {{ item.link }}
-        </li>
-      </ul>
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css"
+      integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous"/>
+  <script src="https://unpkg.com/lodash"></script>
+  <script src="https://unpkg.com/vue"></script>
+  <div id="app">
+    <div v-for="(info, key, index) in infos">
+      <h1>{{ key }}</h1>
+        <ul v-for="item in info">
+          <li>
+            {{ item.name }}
+          </li>
+          <li>
+            {{ item.link }}
+          </li>
+        </ul>
+    </div>
   </div>
-</div>
 
-<script>
-  var app = new Vue({
-    el: '#app',
-    data: { infos: [] },
-    methods: {
-      init: function (event) {
-        var url = 'https://alincode.github.io/digital-nomad-guide-to-taiwan/data.json';
-        // var url = 'http://127.0.0.1:8080/data.json';
-        fetch(url).then(function (response) {
-          return response.json()
-        }).then(function (jsonData) {
-          app.infos = jsonData;
-        }).catch(function (err) {});
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: { infos: [] },
+      methods: {
+        init: function (event) {
+          var url = 'https://alincode.github.io/digital-nomad-guide-to-taiwan/data.json';
+          // var url = 'http://127.0.0.1:8080/data.json';
+          fetch(url).then(function (response) {
+            return response.json()
+          }).then(function (jsonData) {
+            app.infos = jsonData;
+          }).catch(function (err) {});
+        }
       }
-    }
-  });
-  app.init();
-</script>
+    });
+    app.init();
+  </script>
 </body>
 </html>

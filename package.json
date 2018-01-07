@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/alincode/digital-nomad-guide-to-taiwan/issues"
   },
-  "homepage": "https://github.com/alincode/digital-nomad-guide-to-taiwan#readme"
+  "homepage": "https://github.com/alincode/digital-nomad-guide-to-taiwan#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
 }
