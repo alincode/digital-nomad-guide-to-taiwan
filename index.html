@@ -10,7 +10,7 @@
     crossorigin="anonymous" />
 </head>
 
-<body>
+<body class="container-fluid">
   <script src="https://unpkg.com/lodash"></script>
   <script src="https://unpkg.com/vue"></script>
 
@@ -20,9 +20,9 @@
 
     <!-- 左側 start -->
     <div class="col-3">
-      <div class="list-group" id="list-tab" role="tablist" v-for="(info, key, index) in infos">
-        <a :class="['list-group-item', 'list-group-item-action', key]" :id="'list-' + key + '-id'" data-toggle="list" :href="'#list-' + key"
-          role="tab" :aria-controls="key" v-on:click="switchContent">{{ key }}</a>
+      <div class="list-group">
+<a href="#" class="list-group-item" :href="'#list-' + key" :id="'list-' + key + '-id'" data-toggle="list" role="tab" v-for="(info, key, index) in infos"
+ v-on:click="switchContent" :aria-controls="key">{{ key }}</a>
       </div>
     </div>
     <!-- 左側 end -->
@@ -65,7 +65,7 @@
           var id = event.target.id;
           console.log(id);
           // tab
-          $('#list-tab .active').removeClass('active');
+          $('.list-group .active').removeClass('active');
           $(this).addClass('active');
 
           // content
