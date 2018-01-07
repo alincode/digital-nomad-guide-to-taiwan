@@ -1,47 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Digital Nomad Guide To Taiwan</title>
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I"
+    crossorigin="anonymous" />
 </head>
+
 <body>
-  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css"
-      integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous"/>
   <script src="https://unpkg.com/lodash"></script>
   <script src="https://unpkg.com/vue"></script>
-  <div id="app">
-    <div v-for="(info, key, index) in infos">
-      <h1>{{ key }}</h1>
-        <ul v-for="item in info">
-          <li>
-            {{ item.name }}
-          </li>
-          <li>
-            {{ item.link }}
-          </li>
-        </ul>
+  <div id="app" class="row">
+
+    <!-- 左側 start -->
+    <div class="col-4">
+      <div class="list-group" id="list-tab" role="tablist" v-for="(info, key, index) in infos">
+        <a :class="['list-group-item', 'list-group-item-action', key]" :id="'list-' + key + '-id'" data-toggle="list" :href="'#list-' + key"
+          role="tab" :aria-controls="key" v-on:click="switchContent">{{ key }}</a>
+      </div>
     </div>
+    <!-- 左側 end -->
+
+    <!-- 右側 start -->
+    <div class="col-8">
+      <div class="tab-content" id="nav-tabContent">
+        <div v-for="(info, key, index) in infos">
+          <div class="tab-pane fade" :id="'list-' + key" role="tabpanel" :aria-labelledby="'list-' + key + '-id'">
+            <h1>{{ key }}</h1>
+            <ul v-for="item in info">
+              <li>
+                <a :href="item.link"> {{ item.name }} </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 右側 end -->
+
   </div>
 
   <script>
     var app = new Vue({
       el: '#app',
-      data: { infos: [] },
+      data: {
+        infos: []
+      },
       methods: {
         init: function (event) {
           var url = 'https://alincode.github.io/digital-nomad-guide-to-taiwan/data.json';
-          // var url = 'http://127.0.0.1:8080/data.json';
           fetch(url).then(function (response) {
             return response.json()
           }).then(function (jsonData) {
             app.infos = jsonData;
           }).catch(function (err) {});
+        },
+        switchContent: function (event) {
+          var id = event.target.id;
+          console.log(id);
+          // tab
+          $('#list-tab .active').removeClass('active');
+          $(this).addClass('active');
+
+          // content
+          $('.tab-pane').hide();
+          $('[aria-labelledby=' + id + ']').show();
         }
       }
     });
     app.init();
   </script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>
