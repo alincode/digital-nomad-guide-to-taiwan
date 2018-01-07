@@ -1,0 +1,113 @@
+{
+  "VISA": [{
+      "name": "Passports eligible for Visa Exemption",
+      "link": "http://www.boca.gov.tw/ct.asp?xItem=1443&ctNode=779&mp=2"
+    },
+    {
+      "name": "Passports eligible for Visa on arrival",
+      "link": "http://www.boca.gov.tw/ct.asp?xItem=1446&ctNode=779&mp=2"
+    }
+  ],
+  "POWER": [{
+    "name": "Power (Socket)",
+    "link": "http://www.power-plugs-sockets.com/taiwan/"
+  }],
+  "SIM": [{
+    "name": "SIMCard - Ideal Card",
+    "link": "https://123.cht.com.tw/webecss/PrePaidCard/Introenus.aspx"
+  }],
+  "EASYCARD": [{
+    "name": "EasyCard",
+    "link": "http://www.easycard.com.tw/english/easycard/buy.asp"
+  }],
+  "TRANSPORTATION": [{
+      "name": "Metro Taipei (MRT)",
+      "link": "http://english.metro.taipei/"
+    },
+    {
+      "name": "You bike",
+      "link": "http://taipei.youbike.com.tw/en/f41.php"
+    }
+  ],
+  "MEETUPS": [{
+      "name": "g0v.tw",
+      "link": "http://g0v.tw/en-US/actinfo.html"
+    },
+    {
+      "name": "Open Source UG",
+      "link": "https://twitter.com/tossug"
+    },
+    {
+      "name": "Mozilla Community",
+      "link": "https://moztw.org/space/"
+    },
+    {
+      "name": "Taipei Hackerspace",
+      "link": "https://taipeihack.org/"
+    },
+    {
+      "name": "Hacking Thursday",
+      "link": "https://www.facebook.com/groups/hackingday"
+    },
+    {
+      "name": "WizardAmigos",
+      "link": "https://www.meetup.com/CodingAmigos/events/"
+    }
+  ],
+  "SPORT": [{
+      "name": "Jogging",
+      "link": "https://en.wikipedia.org/wiki/Daan_Forest_Park"
+    },
+    {
+      "name": "Hiking",
+      "link": "https://en.wikipedia.org/wiki/Xiangshan,_Taipei"
+    },
+    {
+      "name": "Free group recreation",
+      "link": "http://taiwaninfo.nat.gov.tw/ct.asp?xItem=173851&ctNode=103"
+    }
+  ],
+  "VEGETARIAN": [{
+      "name": "Bing Xian Noodles",
+      "link": "https://goo.gl/maps/MA3BWAuuXGq"
+    },
+    {
+      "name": "Japanese burger (MOS)",
+      "link": "http://www.mos.com.tw/menu/set_detail.aspx?id=M027"
+    },
+    {
+      "name": "Taiwanese buffet",
+      "link": "https://fr.foursquare.com/v/%E7%9B%8A%E7%BE%8E%E6%96%B0%E6%A6%82%E5%BF%B5%E5%8F%B0%E5%BC%8F%E6%96%99%E7%90%86%E8%87%AA%E5%8A%A9%E9%A4%90/4e4b46c214958c3abfa63d9b"
+    },
+    {
+      "name": "Buddhist veggie place",
+      "link": "http://bit.ly/2gBHcHt"
+    }
+  ],
+  "LIVING": [{
+      "name": "Digi Quarters",
+      "link": "http://www.digiquarters.com/"
+    },
+    {
+      "name": "The Q",
+      "link": "http://www.hostelworld.com/hosteldetails.php/The-Q/Taipei/80974"
+    },
+    {
+      "name": "The meeting space",
+      "link": "https://www.facebook.com/TheMeetingPlaceTaipei/?rf=244233855682531"
+    }
+  ],
+  "SPACES": [{
+      "name": "Cat cafés",
+      "link": "https://gist.github.com/maxogden/74476ae567142d96078c/#file-catcafes-geojson"
+    },
+    {
+      "name": "Creative park",
+      "link": "http://www.huashan1914.com/en/story.html"
+    },
+    {
+      "name": "Electronic market",
+      "link": "https://en.wikipedia.org/wiki/Guang_Hua_Digital_Plaza"
+    }
+  ]
+}

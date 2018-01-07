@@ -11,10 +11,25 @@
 
 <div id="app">
   <p>{{ message }}</p>
+  <button v-on:click="init">init</button>
 </div>
 
 <script>
-new Vue({ el: '#app', data: { message: 'Hello Vue.js!' } })
+  var app = new Vue({
+    el: '#app',
+    data: { message: 'Hello Vue.js!' },
+    methods: {
+      init: function (event) {
+        fetch('https://alincode.github.io/digital-nomad-guide-to-taiwan/data.json').then(function (response) {
+          return response.json()
+        }).then(function (j) {
+          console.dir(j);
+        }).catch(function (err) {
+          alert('err');
+        });
+      }
+    }
+  });
 </script>
 </body>
 </html>
