@@ -8,21 +8,20 @@
   <title>Digital Nomad Guide To Taiwan</title>
   <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I"
     crossorigin="anonymous" />
-</head>
-
-<body class="container-fluid">
   <script src="https://unpkg.com/lodash"></script>
   <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
 
-<h1 class="text-center">Digital Nomad Guide To Taiwan</h1>
-
+<div class="container">
+  <h1 class="text-center">Digital Nomad Guide To Taiwan</h1>
   <div id="app" class="row">
 
     <!-- 左側 start -->
     <div class="col-3">
       <div class="list-group">
-<a href="#" class="list-group-item" :href="'#list-' + key" :id="'list-' + key + '-id'" data-toggle="list" role="tab" v-for="(info, key, index) in infos"
- v-on:click="switchContent" :aria-controls="key">{{ key }}</a>
+        <a href="#" class="list-group-item" :href="'#list-' + key" :id="'list-' + key + '-id'" data-toggle="list" role="tab" v-for="(info, key, index) in infos"
+          v-on:click="switchContent" :aria-controls="key">{{ key }}</a>
       </div>
     </div>
     <!-- 左側 end -->
@@ -32,7 +31,6 @@
       <div class="tab-content" id="nav-tabContent">
         <div v-for="(info, key, index) in infos">
           <div class="tab-pane fade" :id="'list-' + key" role="tabpanel" :aria-labelledby="'list-' + key + '-id'">
-            <h4>{{ key }}</h4>
             <ul v-for="item in info">
               <li>
                 <a :href="item.link"> {{ item.name }} </a>
@@ -46,6 +44,8 @@
 
   </div>
 
+</div>
+  
   <script>
     var app = new Vue({
       el: '#app',
@@ -55,6 +55,7 @@
       methods: {
         init: function (event) {
           var url = 'https://alincode.github.io/digital-nomad-guide-to-taiwan/data.json';
+          // var url = 'http://127.0.0.1:8080/data.json';
           fetch(url).then(function (response) {
             return response.json()
           }).then(function (jsonData) {
