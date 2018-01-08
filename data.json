@@ -76,8 +76,8 @@
     }
   ],
   "VEGETARIAN": [{
-      "name": "Bing Xian Noodles",
-      "link": "https://goo.gl/maps/MA3BWAuuXGq"
+      "name": "The 15 Best Places for a Vegan Food in Taipei",
+      "link": "https://foursquare.com/top-places/taipei/best-places-vegan-food"
     },
     {
       "name": "Japanese burger (MOS)",
@@ -149,5 +149,5 @@
       "name": "WizardAmigos",
       "link": "https://www.meetup.com/CodingAmigos/events/"
     }
-  ],
+  ]
 }
