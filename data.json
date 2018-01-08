@@ -6,58 +6,64 @@
     }
   ],
   "VISA": [{
-      "name": "Passports eligible for Visa Exemption",
-      "link": "http://www.boca.gov.tw/ct.asp?xItem=1443&ctNode=779&mp=2"
-    },
-    {
-      "name": "Passports eligible for Visa on arrival",
-      "link": "http://www.boca.gov.tw/ct.asp?xItem=1446&ctNode=779&mp=2"
+      "name": "Bureau of Consular Affairs, Ministry of Foreign Affairs, Republic of China(Taiwan)",
+      "link": "https://www.boca.gov.tw/np-137-2.html"
     }
   ],
-  "POWER": [{
-    "name": "Power (Socket)",
-    "link": "http://www.power-plugs-sockets.com/taiwan/"
-  }],
-  "SIM": [{
-    "name": "SIMCard - Ideal Card",
-    "link": "https://123.cht.com.tw/webecss/PrePaidCard/Introenus.aspx"
-  }],
-  "EASYCARD": [{
-    "name": "EasyCard",
-    "link": "http://www.easycard.com.tw/english/easycard/buy.asp"
-  }],
+  "SIM": [
+    {
+      "name": "Taiwan | Prepaid Data SIM Card Wiki | FANDOM powered by Wikia",
+      "link": "http://prepaid-data-sim-card.wikia.com/wiki/Taiwan"
+    },{
+      "name": "Chunghwa Telecom",
+      "link": "https://prepaidsim.twgate.net/index_en.html"
+    },{
+      "name": "Taiwan Mobile",
+      "link": "https://english.taiwanmobile.com/english/product/4GPrepaidCard.html"
+    },{
+      "name": "FarEasTone",
+      "link": "https://www.fetnet.net/cs/Satellite/eCorporate/ecoPD2_internet"
+    },{
+      "name": "T Star",
+      "link": "https://www.tstartel.com/static/twcard/en/index.htm"
+    }],
+    "EASYCARD": [{
+      "name": "EasyCard",
+      "link": "http://www.easycard.com.tw/english/easycard/buy.asp"
+    }
+  ],
   "TRANSPORTATION": [{
       "name": "Metro Taipei (MRT)",
-      "link": "http://english.metro.taipei/"
-    },
-    {
+      "link": "http://english.metro.taipei/",
+      "photo": [{
+        "alt": "Route Map",
+        "imageUrl": "http://web.metro.taipei/img/E/metrotaipeimap.jpg"
+      },{
+        "alt": "e-card",
+        "imageUrl": "https://www.easycard.com.tw/img/e-card.jpg"
+      },{
+        "alt": "logo",
+        "imageUrl": "http://english.metro.taipei/public/MMO/trtc/logo.gif"
+      }]
+    },{
+      "name": "Metro Taipei (MRT)",
+      "link": "http://english.metro.taipei/",
+      "photo": [
+        {
+          "alt": "Route Map",
+          "imageUrl": "https://www.krtco.com.tw/images/newInnerSite/guide/guide_routemap_e.png"
+        },{
+          "alt": "logo",
+          "imageUrl": "https://www.krtco.com.tw/images/newInnerSite/about/img_logo.jpg"
+        }
+      ]
+    },{
       "name": "You bike",
       "link": "http://taipei.youbike.com.tw/en/f41.php"
-    }
-  ],
-  "MEETUPS": [{
-      "name": "g0v.tw",
-      "link": "http://g0v.tw/en-US/actinfo.html"
     },
     {
-      "name": "Open Source UG",
-      "link": "https://twitter.com/tossug"
-    },
-    {
-      "name": "Mozilla Community",
-      "link": "https://moztw.org/space/"
-    },
-    {
-      "name": "Taipei Hackerspace",
-      "link": "https://taipeihack.org/"
-    },
-    {
-      "name": "Hacking Thursday",
-      "link": "https://www.facebook.com/groups/hackingday"
-    },
-    {
-      "name": "WizardAmigos",
-      "link": "https://www.meetup.com/CodingAmigos/events/"
+      "name": "WeMo Scooter",
+      "link": "https://itunes.apple.com/app/wemo-scooter/id1185800267?mt=8"
     }
   ],
   "SPORT": [{
@@ -67,10 +73,6 @@
     {
       "name": "Hiking",
       "link": "https://en.wikipedia.org/wiki/Xiangshan,_Taipei"
-    },
-    {
-      "name": "Free group recreation",
-      "link": "http://taiwaninfo.nat.gov.tw/ct.asp?xItem=173851&ctNode=103"
     }
   ],
   "VEGETARIAN": [{
@@ -115,5 +117,37 @@
       "name": "Electronic market",
       "link": "https://en.wikipedia.org/wiki/Guang_Hua_Digital_Plaza"
     }
-  ]
+  ],
+  "POWER": [
+    {
+      "name": "Power (Socket)",
+      "link": "http://www.power-plugs-sockets.com/taiwan/"
+    }
+  ],
+  "MEETUPS": [
+    {
+      "name": "g0v.tw",
+      "link": "http://g0v.tw/en-US/actinfo.html"
+    },
+    {
+      "name": "Open Source UG",
+      "link": "https://twitter.com/tossug"
+    },
+    {
+      "name": "Mozilla Community",
+      "link": "https://moztw.org/space/"
+    },
+    {
+      "name": "Taipei Hackerspace",
+      "link": "https://taipeihack.org/"
+    },
+    {
+      "name": "Hacking Thursday",
+      "link": "https://www.facebook.com/groups/hackingday"
+    },
+    {
+      "name": "WizardAmigos",
+      "link": "https://www.meetup.com/CodingAmigos/events/"
+    }
+  ],
 }
