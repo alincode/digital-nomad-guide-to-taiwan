@@ -59,11 +59,25 @@
       ]
     },{
       "name": "You bike",
-      "link": "http://taipei.youbike.com.tw/en/f41.php"
+      "link": "http://taipei.youbike.com.tw/en/f41.php",
+      "photo": [{
+        "alt": "Route Map",
+        "imageUrl": "https://www.krtco.com.tw/images/newInnerSite/guide/guide_routemap_e.png"
+      }, {
+        "alt": "logo",
+        "imageUrl": "https://www.krtco.com.tw/images/newInnerSite/about/img_logo.jpg"
+      }]
     },
     {
       "name": "WeMo Scooter",
-      "link": "https://itunes.apple.com/app/wemo-scooter/id1185800267?mt=8"
+      "link": "https://itunes.apple.com/app/wemo-scooter/id1185800267?mt=8",
+      "photo": [{
+        "alt": "Mobile App",
+        "imageUrl": "http://www.wemoscooter.com/wp-content/uploads/2017/04/img03@4x.jpg"
+      }, {
+        "alt": "logo",
+        "imageUrl": "http://www.wemoscooter.com/wp-content/uploads/2017/04/DSC_5934-2-01-2.jpg"
+      }]
     }
   ],
   "SPORT": [{
@@ -82,14 +96,6 @@
     {
       "name": "Japanese burger (MOS)",
       "link": "http://www.mos.com.tw/menu/set_detail.aspx?id=M027"
-    },
-    {
-      "name": "Taiwanese buffet",
-      "link": "https://fr.foursquare.com/v/%E7%9B%8A%E7%BE%8E%E6%96%B0%E6%A6%82%E5%BF%B5%E5%8F%B0%E5%BC%8F%E6%96%99%E7%90%86%E8%87%AA%E5%8A%A9%E9%A4%90/4e4b46c214958c3abfa63d9b"
-    },
-    {
-      "name": "Buddhist veggie place",
-      "link": "http://bit.ly/2gBHcHt"
     }
   ],
   "LIVING": [{
@@ -97,31 +103,14 @@
       "link": "http://www.digiquarters.com/"
     },
     {
-      "name": "The Q",
-      "link": "http://www.hostelworld.com/hosteldetails.php/The-Q/Taipei/80974"
-    },
-    {
-      "name": "The meeting space",
-      "link": "https://www.facebook.com/TheMeetingPlaceTaipei/?rf=244233855682531"
+      "name": "hostelworld - Taipei",
+      "link": "https://www.hostelworld.com/findabed.php/ChosenCity.Taipei/ChosenCountry.Taiwan"
     }
   ],
-  "SPACES": [{
-      "name": "Cat cafés",
-      "link": "https://gist.github.com/maxogden/74476ae567142d96078c/#file-catcafes-geojson"
-    },
-    {
-      "name": "Creative park",
-      "link": "http://www.huashan1914.com/en/story.html"
-    },
+  "SPACES": [
     {
       "name": "Electronic market",
       "link": "https://en.wikipedia.org/wiki/Guang_Hua_Digital_Plaza"
-    }
-  ],
-  "POWER": [
-    {
-      "name": "Power (Socket)",
-      "link": "http://www.power-plugs-sockets.com/taiwan/"
     }
   ],
   "MEETUPS": [
@@ -149,5 +138,9 @@
       "name": "WizardAmigos",
       "link": "https://www.meetup.com/CodingAmigos/events/"
     }
-  ]
+  ],
+  "POWER": [{
+    "name": "Power (Socket)",
+    "link": "http://www.power-plugs-sockets.com/taiwan/"
+  }]
 }
