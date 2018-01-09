@@ -31,11 +31,14 @@
       <div class="tab-content" id="nav-tabContent">
         <div v-for="(info, key, index) in infos">
           <div class="tab-pane fade" :id="'list-' + key" role="tabpanel" :aria-labelledby="'list-' + key + '-id'">
-            <ul v-for="item in info">
-              <li>
+            <div v-for="item in info" class="row">
+              <div class="col-12">
                 <a :href="item.link"> {{ item.name }} </a>
-              </li>
-            </ul>
+              </div>
+              <div class="col-4" v-for="photo in item.photo">
+                <img :src="photo.imageUrl" :alt="photo.alt" class="img-thumbnail" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
