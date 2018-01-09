@@ -13,10 +13,15 @@
 </head>
 <body>
 
-<div class="container">
-  <h1 class="text-center">Digital Nomad Guide To Taiwan</h1>
-  <div id="app" class="row">
+<div class="container-fuild">
 
+  <!-- layout start -->
+  <nav class="navbar navbar-inverse bg-inverse">
+    <h1 class="navbar-brand mb-0">Digital Nomad Guide To Taiwan</h1>
+  </nav>
+  <!-- layout end -->
+
+  <div id="app" class="row">
     <!-- 左側 start -->
     <div class="col-3">
       <div class="list-group">
@@ -32,11 +37,13 @@
         <div v-for="(info, key, index) in infos">
           <div class="tab-pane fade" :id="'list-' + key" role="tabpanel" :aria-labelledby="'list-' + key + '-id'">
             <div v-for="item in info" class="row">
-              <div class="col-12">
+              <div class="col-12 alert">
                 <a :href="item.link"> {{ item.name }} </a>
               </div>
-              <div class="col-4" v-for="photo in item.photo">
-                <img :src="photo.imageUrl" :alt="photo.alt" class="img-thumbnail" />
+              <div class="col-3" v-for="photo in item.photo">
+                <a :href="photo.imageUrl" target="_blank">
+                  <img :src="photo.imageUrl" :alt="photo.alt" class="img-thumbnail" />
+                </a>
               </div>
             </div>
           </div>
@@ -67,7 +74,7 @@
         },
         switchContent: function (event) {
           var id = event.target.id;
-          console.log(id);
+          // console.log(id);
           // tab
           $('.list-group .active').removeClass('active');
           $(this).addClass('active');
