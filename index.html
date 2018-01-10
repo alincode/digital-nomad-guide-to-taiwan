@@ -37,10 +37,10 @@
         <div v-for="(info, key, index) in infos">
           <div class="tab-pane fade" :id="'list-' + key" role="tabpanel" :aria-labelledby="'list-' + key + '-id'">
             <div v-for="item in info" class="row">
-              <div class="col-3 alert">
+              <div class="col-4 alert">
                 <a :href="item.link"> {{ item.name }} </a>
               </div>
-              <div class="col-3" v-for="photo in item.photo">
+              <div class="col-4" v-for="photo in item.photo">
                 <a :href="photo.imageUrl" target="_blank">
                   <img :src="photo.imageUrl" :alt="photo.alt" class="img-thumbnail" />
                 </a>

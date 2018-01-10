@@ -8,9 +8,6 @@
       },{
         "alt": "Route Map",
         "imageUrl": "http://web.metro.taipei/img/E/metrotaipeimap.jpg"
-      }, {
-        "alt": "e-card",
-        "imageUrl": "https://www.easycard.com.tw/img/e-card.jpg"
       }]
     }, {
       "name": "Metro krtco",
@@ -76,7 +73,13 @@
   ],
   "EASYCARD": [{
       "name": "EasyCard",
-      "link": "http://www.easycard.com.tw/english/easycard/buy.asp"
+      "link": "http://www.easycard.com.tw/english/easycard/buy.asp",
+      "photo": [
+        {
+          "alt": "e-card",
+          "imageUrl": "https://www.easycard.com.tw/img/e-card.jpg"
+        }
+      ]
     }, {
       "name": "I-PASS",
       "link": "https://www.i-pass.com.tw/en"
