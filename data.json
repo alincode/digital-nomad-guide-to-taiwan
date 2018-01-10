@@ -3,24 +3,24 @@
       "name": "Metro Taipei (MRT)",
       "link": "http://english.metro.taipei/",
       "photo": [{
+        "alt": "logo",
+        "imageUrl": "http://english.metro.taipei/public/MMO/trtc/logo.gif"
+      },{
         "alt": "Route Map",
         "imageUrl": "http://web.metro.taipei/img/E/metrotaipeimap.jpg"
       }, {
         "alt": "e-card",
         "imageUrl": "https://www.easycard.com.tw/img/e-card.jpg"
-      }, {
-        "alt": "logo",
-        "imageUrl": "http://english.metro.taipei/public/MMO/trtc/logo.gif"
       }]
     }, {
       "name": "Metro krtco",
       "link": "https://www.krtco.com.tw/en/",
       "photo": [{
-        "alt": "Route Map",
-        "imageUrl": "https://www.krtco.com.tw/images/newInnerSite/guide/guide_routemap_e.png"
-      }, {
         "alt": "logo",
         "imageUrl": "https://www.krtco.com.tw/images/newInnerSite/about/img_logo.jpg"
+      },{
+        "alt": "Route Map",
+        "imageUrl": "https://www.krtco.com.tw/images/newInnerSite/guide/guide_routemap_e.png"
       }]
     }, {
       "name": "You bike",
