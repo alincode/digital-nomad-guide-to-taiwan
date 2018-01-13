@@ -45,7 +45,13 @@
   "CO-WORKING-SPACE": [
     {
       "name": "MONOSPACE",
-      "link": "https://workfrom.co/monospace-148380"
+      "link": "https://workfrom.co/monospace-148380",
+      "photo": [
+        {
+          "alt": "Image1",
+          "imageUrl": "https://alincode.github.io/digital-nomad-guide-to-taiwan/monospace/1.jpg"
+        }
+      ]
     }
   ],
   "VISA": [{
