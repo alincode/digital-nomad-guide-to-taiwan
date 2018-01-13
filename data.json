@@ -1,6 +1,6 @@
 {
   "TRANSPORTATION": [{
-      "name": "Metro Taipei (MRT)",
+      "name": "Metro Taipei (Taipei MRT)",
       "link": "http://english.metro.taipei/",
       "photo": [{
         "alt": "logo",
@@ -10,7 +10,7 @@
         "imageUrl": "http://web.metro.taipei/img/E/metrotaipeimap.jpg"
       }]
     }, {
-      "name": "Metro krtco",
+      "name": "Metro krtco (Kaohsiung MRT)",
       "link": "https://www.krtco.com.tw/en/",
       "photo": [{
         "alt": "logo",
@@ -25,9 +25,6 @@
       "photo": [{
         "alt": "Welcome Mask",
         "imageUrl": "https://www.youbike.com.tw/images/wel_mask.png"
-      }, {
-        "alt": "logo",
-        "imageUrl": "https://taipei.youbike.com.tw/images/logo/taipei/logo.png"
       }]
     },
     {

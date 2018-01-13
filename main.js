@@ -1,5 +1,3 @@
-var _ = require('lodash')
-
 var app = new Vue({
   el: '#app',
   data: {
@@ -14,6 +12,7 @@ var app = new Vue({
         return response.json()
       }).then(function (jsonData) {
         app.infos = jsonData;
+        setTimeout(function(){ $('.list-group :first').click(); }, 0);
       }).catch(function (err) { });
     },
     switchContent: function (event) {
