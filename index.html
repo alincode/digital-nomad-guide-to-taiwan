@@ -48,7 +48,7 @@
             <div v-for="item in info" class="row">
               <div v-if="item.photo" class="col-3">
                 <div class="alert">
-                  <a :href="item.link"> {{ item.name }} </a>
+                  <a :href="item.link" target="_blank"> {{ item.name }} </a>
                 </div>
               </div>
               <div class="col-3" v-for="photo in item.photo">
@@ -59,7 +59,7 @@
               <div v-if="!item.photo">
                 <div class="alert">
                   <!-- no phone -->
-                  <a :href="item.link"> {{ item.name }} </a>
+                  <a :href="item.link" target="_blank"> {{ item.name }} </a>
                 </div>
               </div>
             </div> <!-- row end -->

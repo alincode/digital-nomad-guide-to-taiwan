@@ -1,6 +1,6 @@
 {
   "TRANSPORTATION": [{
-      "name": "Metro Taipei (Taipei MRT)",
+      "name": "Taipei MRT",
       "link": "http://english.metro.taipei/",
       "photo": [{
         "alt": "logo",
@@ -10,7 +10,7 @@
         "imageUrl": "http://web.metro.taipei/img/E/metrotaipeimap.jpg"
       }]
     }, {
-      "name": "Metro krtco (Kaohsiung MRT)",
+      "name": "Kaohsiung MRT",
       "link": "https://www.krtco.com.tw/en/",
       "photo": [{
         "alt": "logo",
@@ -47,6 +47,9 @@
         {
           "alt": "Image1",
           "imageUrl": "https://alincode.github.io/digital-nomad-guide-to-taiwan/images/monospace/1.jpg"
+        },{
+          "alt": "One Day Pass",
+          "imageUrl": "https://alincode.github.io/digital-nomad-guide-to-taiwan/images/monospace/one-day-pass.jpg"
         }
       ]
     }
@@ -72,6 +75,9 @@
     },{
       "name": "T Star",
       "link": "https://www.tstartel.com/static/twcard/en/index.htm"
+    },{
+      "name": "iBon mobile",
+      "link": "http://www.7-11.com.tw/ibonmobile/english1_1.html"
     }
   ],
   "EASYCARD": [{
@@ -85,7 +91,13 @@
       ]
     }, {
       "name": "I-PASS",
-      "link": "https://www.i-pass.com.tw/en"
+      "link": "https://www.i-pass.com.tw/en",
+      "photo": [
+        {
+          "alt": "e-card",
+          "imageUrl": "http://www.i-pass.com.tw/CKPackage/images/ipassadult.png"
+        }
+      ]
     }
   ],
   "SPORT": [{
