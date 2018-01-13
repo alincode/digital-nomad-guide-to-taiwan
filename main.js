@@ -7,7 +7,8 @@ var app = new Vue({
   },
   methods: {
     init: function (event) {
-      var url = 'https://alincode.github.io/digital-nomad-guide-to-taiwan/data.json';
+      let randomNum = new Date().getTime()
+      var url = 'https://alincode.github.io/digital-nomad-guide-to-taiwan/data.json?v=' + randomNum;
       // var url = 'http://127.0.0.1:8080/data.json';
       fetch(url).then(function (response) {
         return response.json()
