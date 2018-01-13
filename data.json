@@ -112,7 +112,13 @@
   "VEGETARIAN": [
     {
       "name": "Japanese burger (MOS)",
-      "link": "http://www.mos.com.tw/menu/set_detail.aspx?id=M027"
+      "link": "http://www.mos.com.tw/menu/set_detail.aspx?id=M027",
+      "photo": [
+        {
+          "alt": "burger",
+          "imageUrl": "http://www.mos.com.tw/upload/product/20160203_161952_064.jpg"
+        }
+      ]
     },
     {
       "name": "Bade vegetarian restaurant 八德素食坊",
