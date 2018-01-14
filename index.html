@@ -59,6 +59,9 @@
                         <li v-if="item.link">
                           <a :href="item.link" target="_blank">official website</a>
                         </li>
+                        <li v-if="item.googleMap">
+                          <a :href="item.googleMap" target="_blank">Map</a>
+                        </li>
                         <li v-if="item.itunes">
                           <a :href="item.itunes" target="_blank">itunes app</a>
                         </li>

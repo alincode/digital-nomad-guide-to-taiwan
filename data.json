@@ -131,7 +131,7 @@
     },
     {
       "name": "Bade vegetarian restaurant 八德素食坊",
-      "link": "https://www.google.com.tw/maps/place/%E5%85%AB%E5%BE%B7%E7%B4%A0%E9%A3%9F%E5%9D%8A/@25.0451875,121.5340754,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a962989269ef:0xaec8101adc681674!8m2!3d25.0451827!4d121.5362641?hl=en",
+      "googleMap": "https://www.google.com.tw/maps/place/%E5%85%AB%E5%BE%B7%E7%B4%A0%E9%A3%9F%E5%9D%8A/@25.0451875,121.5340754,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a962989269ef:0xaec8101adc681674!8m2!3d25.0451827!4d121.5362641?hl=en",
       "photo": [{
         "alt": "logo",
         "imageUrl": "https://alincode.github.io/digital-nomad-guide-to-taiwan/images/bade/logo.png"
@@ -144,7 +144,7 @@
     },
     {
       "name": "Lai mon vegetarian restaurant 賴媽媽素食",
-      "link": "https://www.google.com.tw/maps/place/%E8%B3%B4%E5%AA%BD%E5%AA%BD%E7%B4%A0%E9%A3%9F/@25.0397158,121.5293883,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a97c014b6e1d:0x3d53c4b4ffa1a51f!8m2!3d25.039711!4d121.531577?hl=en",
+      "googleMap": "https://www.google.com.tw/maps/place/%E8%B3%B4%E5%AA%BD%E5%AA%BD%E7%B4%A0%E9%A3%9F/@25.0397158,121.5293883,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a97c014b6e1d:0x3d53c4b4ffa1a51f!8m2!3d25.039711!4d121.531577?hl=en",
       "photo": [
         {
           "alt": "logo",
