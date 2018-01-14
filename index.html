@@ -31,7 +31,7 @@
   <div id="app" class="row">
     
     <!-- 左側 start -->
-    <div class="col-3">
+    <div class="col-md-3 col-sm-12">
       <div class="list-group">
         <a href="#" class="list-group-item" :href="'#list-' + key" :id="'list-' + key + '-id'" data-toggle="list" role="tab" v-for="(info, key, index) in infos"
           v-on:click="switchContent" :aria-controls="key">{{ key }}</a>
@@ -40,7 +40,7 @@
     <!-- 左側 end -->
 
     <!-- 右側 start -->
-    <div class="col-9">
+    <div class="col-md-9 col-sm-12">
       <div class="tab-content" id="nav-tabContent">
         <div v-for="(info, key, index) in infos">
 
@@ -54,15 +54,18 @@
                 <div class="card-block">
                   <!-- <h4 class="card-title">Special title treatment</h4> -->
                   <div class="card-text row">
-                    <div class="col-6">
+                    <div class="col-md-6 col-sm-12">
                       <ul>
-                        <li>
-                          <a :href="item.link" target="_blank">WebSite</a>
+                        <li v-if="item.link">
+                          <a :href="item.link" target="_blank">official website</a>
+                        </li>
+                        <li v-if="item.itunes-app">
+                          <a :href="item.itunes-app" target="_blank">itunes app</a>
                         </li>
                         <li v-for="description in item.description">{{description}}</li>
                       </ul>
                     </div>
-                    <div class="col-3" v-for="photo in item.photo">
+                    <div class="col-md-3  col-sm-12" v-for="photo in item.photo">
                       <a :href="photo.imageUrl" target="_blank">
                         <img :src="photo.imageUrl" :alt="photo.alt" class="img-thumbnail" />
                       </a>
