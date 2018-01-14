@@ -59,11 +59,11 @@
                         <li v-if="item.link">
                           <a :href="item.link" target="_blank">official website</a>
                         </li>
-                        <li v-if="item.googleMap">
-                          <a :href="item.googleMap" target="_blank">Map</a>
-                        </li>
                         <li v-if="item.address">
                           {{item.address}}
+                        </li>
+                        <li v-if="item.googleMap">
+                          <a :href="item.googleMap" target="_blank">Google Map</a>
                         </li>
                         <li v-if="item.facebook">
                           <a :href="item.facebook" target="_blank">facebook</a>

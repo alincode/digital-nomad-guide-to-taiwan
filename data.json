@@ -1,4 +1,52 @@
 {
+  "VEGETARIAN": [
+    {
+      "name": "Japanese burger (MOS)",
+      "link": "http://www.mos.com.tw/menu/set_detail.aspx?id=M027",
+      "photo": [
+        {
+          "alt": "logo",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/5/54/MOS_Burger.svg/1200px-MOS_Burger.svg.png"
+        },
+        {
+          "alt": "burger",
+          "imageUrl": "http://www.mos.com.tw/upload/product/20160203_161952_064.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Bade vegetarian restaurant 八德素食坊",
+      "googleMap": "https://www.google.com.tw/maps/place/%E5%85%AB%E5%BE%B7%E7%B4%A0%E9%A3%9F%E5%9D%8A/@25.0451875,121.5340754,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a962989269ef:0xaec8101adc681674!8m2!3d25.0451827!4d121.5362641?hl=en",
+      "photo": [
+        {
+          "alt": "logo",
+          "imageUrl": "https://alincode.github.io/digital-nomad-guide-to-taiwan/images/bade/logo.png"
+        },
+        {
+          "alt": "logo",
+          "imageUrl": "https://alincode.github.io/digital-nomad-guide-to-taiwan/images/bade/time.png"
+        }
+      ],
+      "facebook": "https://www.facebook.com/%E5%85%AB%E5%BE%B7%E7%B4%A0%E9%A3%9F%E5%9D%8A-176751619070278/",
+      "address": "No.14, Section1 Jianguo South Road, Zhongshan District, Taipei"
+    },
+    {
+      "name": "Lai mon vegetarian restaurant 賴媽媽素食",
+      "googleMap": "https://www.google.com.tw/maps/place/%E8%B3%B4%E5%AA%BD%E5%AA%BD%E7%B4%A0%E9%A3%9F/@25.0397158,121.5293883,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a97c014b6e1d:0x3d53c4b4ffa1a51f!8m2!3d25.039711!4d121.531577?hl=en",
+      "photo": [
+        {
+          "alt": "logo",
+          "imageUrl": "https://alincode.github.io/digital-nomad-guide-to-taiwan/images/lai/logo.png"
+        },
+        {
+          "alt": "time",
+          "imageUrl": "https://alincode.github.io/digital-nomad-guide-to-taiwan/images/lai/time.png"
+        }
+      ],
+      "facebook": "https://www.facebook.com/52vegan/posts/1447008622010053?match=6LO0IOWqveWqvQ%3D%3D",
+      "address": "Taipei Zhongzheng District Linyi Street 33, Lane 33, Lane 2"
+    }
+  ],
   "TRANSPORTATION": [{
       "name": "Taipei MRT",
       "link": "http://english.metro.taipei/",
@@ -112,51 +160,6 @@
     {
       "name": "Hiking",
       "link": "https://en.wikipedia.org/wiki/Xiangshan,_Taipei"
-    }
-  ],
-  "VEGETARIAN": [
-    {
-      "name": "Japanese burger (MOS)",
-      "link": "http://www.mos.com.tw/menu/set_detail.aspx?id=M027",
-      "photo": [
-        {
-          "alt": "logo",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/zh/thumb/5/54/MOS_Burger.svg/1200px-MOS_Burger.svg.png"
-        },
-        {
-          "alt": "burger",
-          "imageUrl": "http://www.mos.com.tw/upload/product/20160203_161952_064.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Bade vegetarian restaurant 八德素食坊",
-      "googleMap": "https://www.google.com.tw/maps/place/%E5%85%AB%E5%BE%B7%E7%B4%A0%E9%A3%9F%E5%9D%8A/@25.0451875,121.5340754,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a962989269ef:0xaec8101adc681674!8m2!3d25.0451827!4d121.5362641?hl=en",
-      "photo": [{
-        "alt": "logo",
-        "imageUrl": "https://alincode.github.io/digital-nomad-guide-to-taiwan/images/bade/logo.png"
-      },{
-        "alt": "logo",
-        "imageUrl": "https://alincode.github.io/digital-nomad-guide-to-taiwan/images/bade/time.png"
-      }],
-      "facebook": "https://www.facebook.com/%E5%85%AB%E5%BE%B7%E7%B4%A0%E9%A3%9F%E5%9D%8A-176751619070278/",
-      "address": "No.14, Section1 Jianguo South Road, Zhongshan District, Taipei"
-    },
-    {
-      "name": "Lai mon vegetarian restaurant 賴媽媽素食",
-      "googleMap": "https://www.google.com.tw/maps/place/%E8%B3%B4%E5%AA%BD%E5%AA%BD%E7%B4%A0%E9%A3%9F/@25.0397158,121.5293883,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a97c014b6e1d:0x3d53c4b4ffa1a51f!8m2!3d25.039711!4d121.531577?hl=en",
-      "photo": [
-        {
-          "alt": "logo",
-          "imageUrl": "https://alincode.github.io/digital-nomad-guide-to-taiwan/images/lai/logo.png"
-        },
-        {
-          "alt": "time",
-          "imageUrl": "https://alincode.github.io/digital-nomad-guide-to-taiwan/images/lai/time.png"
-        }
-      ],
-      "facebook": "https://www.facebook.com/52vegan/posts/1447008622010053?match=6LO0IOWqveWqvQ%3D%3D",
-      "address": "Taipei Zhongzheng District Linyi Street 33, Lane 33, Lane 2"
     }
   ],
   "LIVING": [{
