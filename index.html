@@ -45,17 +45,32 @@
         <div v-for="(info, key, index) in infos">
 
           <div class="tab-pane fade" :id="'list-' + key" role="tabpanel" :aria-labelledby="'list-' + key + '-id'">
-            <div v-for="item in info" class="row">
-              <div v-if="item.photo" class="col-3">
-                <div class="alert">
-                  <a :href="item.link" target="_blank"> {{ item.name }} </a>
+            <div v-for="item in info">
+
+              <div class="card" v-if="item.photo">
+                <div class="card-header">
+                  {{ item.name }}
+                </div>
+                <div class="card-block">
+                  <!-- <h4 class="card-title">Special title treatment</h4> -->
+                  <div class="card-text row">
+                    <div class="col-6">
+                      <ul>
+                        <li>
+                          <a :href="item.link" target="_blank">WebSite</a>
+                        </li>
+                        <li v-for="description in item.description">{{description}}</li>
+                      </ul>
+                    </div>
+                    <div class="col-3" v-for="photo in item.photo">
+                      <a :href="photo.imageUrl" target="_blank">
+                        <img :src="photo.imageUrl" :alt="photo.alt" class="img-thumbnail" />
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="col-3" v-for="photo in item.photo">
-                <a :href="photo.imageUrl" target="_blank">
-                  <img :src="photo.imageUrl" :alt="photo.alt" class="img-thumbnail" />
-                </a>
-              </div>
+
               <div v-if="!item.photo">
                 <div class="alert">
                   <!-- no phone -->

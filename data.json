@@ -8,7 +8,11 @@
       },{
         "alt": "Route Map",
         "imageUrl": "http://web.metro.taipei/img/E/metrotaipeimap.jpg"
-      }]
+      }],
+      "description": [
+        "Fares range between NT$20–65",
+        "around 6:30 AM ~ 11:30 PM (+-30 miunte), it depend on which stop."
+      ]
     }, {
       "name": "Kaohsiung MRT",
       "link": "https://www.krtco.com.tw/en/",
@@ -198,5 +202,9 @@
   "MISE": [{
     "name": "Power (Socket)",
     "link": "http://www.power-plugs-sockets.com/taiwan/"
+  }],
+  "LIFE-CONVERSATION": [{
+    "zh": "我只吃素的人",
+    "en": "i am vegan."
   }]
 }
