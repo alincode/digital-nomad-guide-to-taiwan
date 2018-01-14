@@ -52,9 +52,9 @@
                   {{ item.name }}
                 </div>
                 <div class="card-block">
-                  <!-- <h4 class="card-title">Special title treatment</h4> -->
                   <div class="card-text row">
                     <div class="col-md-6 col-sm-12">
+                      <!-- should move to component start -->
                       <ul>
                         <li v-if="item.link">
                           <a :href="item.link" target="_blank">official website</a>
@@ -73,6 +73,7 @@
                         </li>
                         <li v-for="description in item.description">{{description}}</li>
                       </ul>
+                      <!-- should move to component end -->
                     </div>
                     <div class="col-md-3  col-sm-12" v-for="photo in item.photo">
                       <a :href="photo.imageUrl" target="_blank">
@@ -84,13 +85,38 @@
               </div>
 
               <div v-if="!item.photo">
-                <div class="alert">
-                  <!-- no phone -->
-                  <a :href="item.link" target="_blank"> {{ item.name }} </a>
+
+                <div class="card">
+                  <div class="card-header">
+                     {{ item.name }}
+                  </div>
+                  <div class="card-block">
+                    <!-- <h4 class="card-title">Special title treatment</h4> -->
+                    <div class="card-text">
+                      <!-- should move to component start -->
+                      <ul>
+                        <li v-if="item.link">
+                          <a :href="item.link" target="_blank">official website</a>
+                        </li>
+                        <li v-if="item.address">
+                          {{item.address}}
+                        </li>
+                        <li v-if="item.googleMap">
+                          <a :href="item.googleMap" target="_blank">Google Map</a>
+                        </li>
+                        <li v-if="item.facebook">
+                          <a :href="item.facebook" target="_blank">facebook</a>
+                        </li>
+                        <li v-if="item.itunes">
+                          <a :href="item.itunes" target="_blank">itunes app</a>
+                        </li>
+                        <li v-for="description in item.description">{{description}}</li>
+                      </ul>
+                      <!-- should move to component end -->
+                    </div>
+                  </div>
                 </div>
               </div>
-
-              
             </div> <!-- row end -->
           </div>  <!-- tab-pane end -->
 

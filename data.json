@@ -79,8 +79,7 @@
         "alt": "Welcome Mask",
         "imageUrl": "https://www.youbike.com.tw/images/wel_mask.png"
       }]
-    },
-    {
+    },{
       "name": "WeMo Scooter",
       "link": "https://itunes.apple.com/app/wemo-scooter/id1185800267?mt=8",
       "photo": [{
@@ -90,6 +89,21 @@
         "alt": "logo",
         "imageUrl": "http://www.wemoscooter.com/wp-content/uploads/2017/04/DSC_5934-2-01-2.jpg"
       }]
+    },
+    {
+      "name": "Uber",
+      "link": "https://www.uber.com/en-TW/",
+      "itunes": "https://itunes.apple.com/us/app/uber/id368677368?mt=8&ct=Uber.com",
+      "photo": [
+        {
+          "alt": "logo",
+          "imageUrl": "https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.5/d1a3f4spazzrp4.cloudfront.net/images/uber-serp-logo-f6e7549c89.jpg"
+        },
+        {
+          "alt": "Mobile App",
+          "imageUrl": "http://is3.mzstatic.com/image/thumb/Purple128/v4/b8/93/a0/b893a053-9f6f-cef0-fdcb-b92d01cfbc69/source/392x696bb.jpg"
+        }
+      ]
     }
   ],
   "CO-WORKING-SPACE": [
@@ -105,11 +119,6 @@
           "imageUrl": "https://alincode.github.io/digital-nomad-guide-to-taiwan/images/monospace/one-day-pass.png"
         }
       ]
-    }
-  ],
-  "VISA": [{
-      "name": "Bureau of Consular Affairs, Ministry of Foreign Affairs, Republic of China(Taiwan)",
-      "link": "https://www.boca.gov.tw/np-137-2.html"
     }
   ],
   "SIM": [
@@ -154,6 +163,16 @@
     }
   ],
   "SPORT": [{
+      "name": "Taipei Wanhua Sports Center (臺北市萬華運動中心)",
+      "link": "http://whsc.com.tw/",
+      "googleMap": "https://www.google.com.tw/maps/place/%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83/@25.047349,121.507085,15z/data=!4m5!3m4!1s0x0:0xac0a7a64c48fcbec!8m2!3d25.047349!4d121.507085?hl=en",
+      "description": [
+        "50 TWD / hour",
+        "06:00 ~ 22:00"
+      ],
+      "address": "Xinyi South Road, Wanhua District, Taipei City, 6-1"
+    },
+    {
       "name": "Jogging",
       "link": "https://en.wikipedia.org/wiki/Daan_Forest_Park"
     },
@@ -206,6 +225,9 @@
   "MISE": [{
     "name": "Power (Socket)",
     "link": "http://www.power-plugs-sockets.com/taiwan/"
+  },{
+    "name": "VISA: Bureau of Consular Affairs, Ministry of Foreign Affairs, Republic of China(Taiwan)",
+    "link": "https://www.boca.gov.tw/np-137-2.html"
   }],
   "LIFE-CONVERSATION": [{
     "zh": "我只吃素的人",
