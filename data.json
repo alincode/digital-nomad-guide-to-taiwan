@@ -163,12 +163,12 @@
     }
   ],
   "SPORT": [{
-      "name": "Taipei Wanhua Sports Center (臺北市萬華運動中心)",
-      "link": "http://whsc.com.tw/",
-      "googleMap": "https://www.google.com.tw/maps/place/%E8%87%BA%E5%8C%97%E5%B8%82%E8%90%AC%E8%8F%AF%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83/@25.047349,121.507085,15z/data=!4m5!3m4!1s0x0:0xac0a7a64c48fcbec!8m2!3d25.047349!4d121.507085?hl=en",
+      "name": "Taipei Nangang Sports Center (南港運動中心)",
+      "link": "https://ngsc.cyc.org.tw/",
+      "googleMap": "https://www.google.com.tw/maps/place/%E5%8D%97%E6%B8%AF%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83/@25.046375,121.582617,15z/data=!4m12!1m6!3m5!1s0x0:0x7cf9d3e5211f9360!2z5Y2X5riv6YGL5YuV5Lit5b-D!8m2!3d25.0489379!4d121.5818398!3m4!1s0x0:0x7cf9d3e5211f9360!8m2!3d25.0489379!4d121.5818398?hl=en",
       "description": [
-        "50 TWD / hour",
-        "06:00 ~ 22:00"
+        "GYM: 50 TWD / hour",
+        "Business hours: 06:00 ~ 22:00"
       ],
       "address": "Xinyi South Road, Wanhua District, Taipei City, 6-1"
     },
